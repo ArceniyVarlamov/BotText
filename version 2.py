@@ -36,4 +36,4 @@ headers = {
 
 response = requests.post(url, headers=headers, json=prompt)
 result = response.text
-print(result)
+print(result) #нужно настроить вывод
