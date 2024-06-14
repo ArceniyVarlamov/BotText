@@ -1,7 +1,7 @@
 from yandexgptlite import YandexGPTLite
 import codecs
 
-
+#черновой вариант, несколько функций
 def bot_read(file):
     file = codecs.open( f"{file}", "r", "utf-8" )
     data = file.read()
